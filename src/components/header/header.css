@@ -1,0 +1,69 @@
+#header-component {
+  width: 100%;
+  background: rgb(245, 245, 245);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid rgb(240, 240, 240);
+
+  -webkit-box-shadow: 0px 0px 35px -19px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 35px -19px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 35px -19px rgba(0, 0, 0, 0.25);
+}
+
+#header-component .logo-container {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+#header-component .logo-container:hover {
+  cursor: pointer;
+}
+
+#header-component .logo-container h1 {
+  color: #303030;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 0 1rem;
+}
+
+#header-component .logo-container h1:hover {
+  color: #789c28;
+}
+
+#header-component .logo-container img {
+  width: 100%;
+  height: 100%;
+}
+
+#header-component ul {
+  color: #303030;
+  display: flex;
+  align-items: center;
+}
+
+#header-component ul li {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+#header-component ul li:hover {
+  color: #789c28;
+}
+
+@media screen and (max-width: 800px) {
+  #header-component {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #header-component .logo-container {
+    margin: 0 0 2rem 0;
+    justify-content: center;
+  }
+}

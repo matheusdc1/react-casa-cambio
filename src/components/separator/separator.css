@@ -1,0 +1,7 @@
+#separator {
+  width: 4rem;
+  height: 3px;
+  border-radius: 4rem;
+  background-color: #789c28;
+  margin: 1rem 0;
+}

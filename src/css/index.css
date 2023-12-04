@@ -1,0 +1,41 @@
+* {
+  outline: 0px solid blue;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(251, 251, 251, 1) 100%
+  );
+}
+
+/* Textos */
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #303030;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 0.65rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(200, 200, 200);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #789c28;
+}
+
+/* Hover Global Botão */
+
+button:hover {
+  filter: contrast(1.25);
+  cursor: pointer;
+}
