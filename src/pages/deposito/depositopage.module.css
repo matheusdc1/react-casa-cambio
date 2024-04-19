@@ -1,0 +1,13 @@
+.section {
+  background: url("../../../public/assets/img/dinheiro-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.h1 {
+  margin: 2rem 0 0 0;
+}

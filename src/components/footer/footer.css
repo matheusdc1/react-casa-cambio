@@ -1,0 +1,31 @@
+#footer-component {
+  width: 100%;
+  min-height: 8rem;
+  height: auto;
+  background: #789c28;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#footer-component h1 {
+  color: whitesmoke;
+  font-size: 2rem;
+}
+
+#footer-component div {
+  margin: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  #footer-component {
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+
+  #footer-component .logo-container {
+    margin: 0 0 2rem 0;
+  }
+}
